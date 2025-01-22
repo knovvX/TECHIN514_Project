@@ -30,7 +30,7 @@ The connection of the two parts are shown below. They connect with each other th
 
 
 
-![diagram](../TECHIN514_Project/images/diagram.png)
+![diagram](./images/diagram.png)
 
 
 
