@@ -22,6 +22,20 @@ The display device is mainly displaying the waveform and the bpm of the music de
 
 ![display](../TECHIN514_Project/images/display.jpg)
 
+
+
+#### Connection Diagram
+
+The connection of the two parts are shown below. They connect with each other through ESP32's Bluetooth module. And ESP32 is responsible for the control of other sensors.
+
+
+
+![diagram](../TECHIN514_Project/images/diagram.png)
+
+
+
+
+
 #### Device Composition
 
 | Device          | Sensor / Element                                             | Functionality                     |
