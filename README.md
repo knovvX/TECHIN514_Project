@@ -12,7 +12,7 @@ Sonic Flow senses the music around and visualize the waveform. The sensing devic
 
 #### Sensing Device
 
-The sensing device is equipped with a microphone sensor, which is recording the sound waves and send it to display device. A bluetooth module of esp32 will handle this transmission, since in the application, these two devices should be very far, so I chose bluetooth. Also the sound level will affect the brightness of the LED strip around the cube, louder the sound is, brighter the LED is.
+The sensing device is equipped with a microphone sensor, which is recording the sound waves and send it to display device. A bluetooth module of esp32 will handle this transmission, since in the application, these two devices should not be very far, so I chose bluetooth. Also the sound level will affect the brightness of the LED strip around the cube, louder the sound is, brighter the LED is.
 
 ![sensing](./images/sensing.jpg)
 
