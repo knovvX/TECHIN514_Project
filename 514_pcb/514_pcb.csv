@@ -1,0 +1,14 @@
+"Source:","/Users/diyunlu/Documents/GitHub/TECHIN514_Project/514_pcb/514_pcb.kicad_sch"
+"Date:","2025-02-12T16:00:10-0800"
+"Tool:","Eeschema 8.0.8"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","5"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Datasheet","Description","Footprint"
+"1","1","BT1","Battery_Cell","Device:Battery_Cell","Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical","~","","~","Single-cell battery","Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
+"2","1","MK1","SPH0645LM4H","Sensor_Audio:SPH0645LM4H","Sensor_Audio:Knowles_SPH0645LM4H-6_3.5x2.65mm","https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf","","https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf","Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6","Sensor_Audio:Knowles_SPH0645LM4H-6_3.5x2.65mm"
+"3","1","R1","R = 10k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","~","Resistor","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+"4","1","SW1","SW_SPDT","Switch:SW_SPDT","Button_Switch_SMD:SW_SPDT_PCM12","~","","~","Switch, single pole double throw","Button_Switch_SMD:SW_SPDT_PCM12"
+"5","1","U1","~","SeeedXiao:XIAO_ESP32_SENSE","SeeedXiao:XIAO_ESP32_SENSE","","","","","SeeedXiao:XIAO_ESP32_SENSE"

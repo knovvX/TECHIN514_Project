@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/diyunlu/Documents/GitHub/TECHIN514_Project/514_pcb/514_pcb.kicad_sch</source>
+    <date>2025-02-12T16:00:10-0800</date>
+    <tool>Eeschema 8.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>514_pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</footprint>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="514_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a710c89-676a-4de9-8b07-fddbbf0ca88f</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>SPH0645LM4H</value>
+      <footprint>Sensor_Audio:Knowles_SPH0645LM4H-6_3.5x2.65mm</footprint>
+      <datasheet>https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</datasheet>
+      <description>Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6</description>
+      <fields>
+        <field name="Footprint">Sensor_Audio:Knowles_SPH0645LM4H-6_3.5x2.65mm</field>
+        <field name="Datasheet">https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</field>
+        <field name="Description">Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6</field>
+      </fields>
+      <libsource lib="Sensor_Audio" part="SPH0645LM4H" description="Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="514_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="microphone MEMS I2S 24bit Knowles SPH0645LM4H Crawford"/>
+      <property name="ki_fp_filters" value="Knowles*SPH0645LM4H*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a25bb41-49a9-4349-a19b-9c9cba82db84</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R = 10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="514_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2530b84-9e41-4d51-b579-1046b590589d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_PCM12</footprint>
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Footprint">Button_Switch_SMD:SW_SPDT_PCM12</field>
+        <field name="Datasheet"/>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="514_pcb.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3e62f7-c836-4fca-94c4-05b53a7f8759</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>SeeedXiao:XIAO_ESP32_SENSE</footprint>
+      <fields>
+        <field name="Footprint">SeeedXiao:XIAO_ESP32_SENSE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="SeeedXiao" part="XIAO_ESP32_SENSE" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="514_pcb.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>339b280e-c297-4371-bb9c-92579286b67b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedXiao" part="XIAO_ESP32_SENSE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO1_A0_D0" type="bidirectional"/>
+        <pin num="2" name="GPIO2_A1_D1" type="bidirectional"/>
+        <pin num="3" name="GPIO3_A2_D2" type="bidirectional"/>
+        <pin num="4" name="GPIO4_A3_D3" type="bidirectional"/>
+        <pin num="5" name="GPIO4_A3_D3_SDA" type="bidirectional"/>
+        <pin num="6" name="GPIO6_A5_D5_SCL" type="bidirectional"/>
+        <pin num="7" name="GPIO43_TX_D6" type="bidirectional"/>
+        <pin num="8" name="5V" type="bidirectional"/>
+        <pin num="9" name="GND" type="bidirectional"/>
+        <pin num="10" name="3V3" type="bidirectional"/>
+        <pin num="11" name="GPIO9_A10_D10_COPI" type="bidirectional"/>
+        <pin num="12" name="GPIO8_A9_D9_CIPO" type="bidirectional"/>
+        <pin num="13" name="GPIO7_A8_D8_SCK" type="bidirectional"/>
+        <pin num="14" name="GPIO44_D7_RX" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Audio" part="SPH0645LM4H">
+      <description>Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6</description>
+      <docs>https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</docs>
+      <footprints>
+        <fp>Knowles*SPH0645LM4H*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK1</field>
+        <field name="Value">SPH0645LM4H</field>
+        <field name="Footprint">Sensor_Audio:Knowles_SPH0645LM4H-6_3.5x2.65mm</field>
+        <field name="Datasheet">https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf</field>
+        <field name="Description">Knowles MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="WS" type="input"/>
+        <pin num="2" name="SEL" type="input"/>
+        <pin num="3" name="GND" type="bidirectional"/>
+        <pin num="4" name="BCLK" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="DATA" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="SeeedXiao">
+      <uri>/Users/diyunlu/Documents/KiCad/8.0/symbols/514_KiCAD_DEMO.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Audio">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Sensor_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="MK1" pin="2" pinfunction="SEL" pintype="input"/>
+      <node ref="MK1" pin="3" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="Net-(BT1-+)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(MK1-BCLK)">
+      <node ref="MK1" pin="4" pinfunction="BCLK" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="GPIO6_A5_D5_SCL" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(MK1-DATA)">
+      <node ref="MK1" pin="6" pinfunction="DATA" pintype="output"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GPIO43_TX_D6" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(MK1-VDD)">
+      <node ref="MK1" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="3V3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(MK1-WS)">
+      <node ref="MK1" pin="1" pinfunction="WS" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="GPIO4_A3_D3_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(SW1-A)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="5V" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="unconnected-(SW1-C-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(U1-GPIO1_A0_D0-Pad1)">
+      <node ref="U1" pin="1" pinfunction="GPIO1_A0_D0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(U1-GPIO2_A1_D1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="GPIO2_A1_D1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U1-GPIO3_A2_D2-Pad3)">
+      <node ref="U1" pin="3" pinfunction="GPIO3_A2_D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-GPIO4_A3_D3-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GPIO4_A3_D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-GPIO7_A8_D8_SCK-Pad13)">
+      <node ref="U1" pin="13" pinfunction="GPIO7_A8_D8_SCK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U1-GPIO8_A9_D9_CIPO-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GPIO8_A9_D9_CIPO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-GPIO9_A10_D10_COPI-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GPIO9_A10_D10_COPI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-GPIO44_D7_RX-Pad14)">
+      <node ref="U1" pin="14" pinfunction="GPIO44_D7_RX" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
