@@ -2648,7 +2648,7 @@
 			(uuid "a77b28f0-3480-404b-8bef-626a713c6d09")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.54 360)
+			(at 0 -2.54 0)
 			(layer "B.Fab")
 			(uuid "5798ad9f-67b5-444c-aaac-64d127212915")
 			(effects
@@ -2709,7 +2709,7 @@
 		(uuid "acd09e1d-1042-4088-8d63-575c6f8a196d")
 		(at 77.38 56.455 90)
 		(property "Reference" "U1"
-			(at -8 12 270)
+			(at -8 12 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "35114211-b7fa-4264-95dd-cc536afaab7b")
