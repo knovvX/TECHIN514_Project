@@ -43,5 +43,8 @@ bool isBluetoothConnected();
 
 // Get the most recent connection status message
 const char* getBluetoothStatusMessage();
+void recordBeatFromBluetooth();
+float calculateBPMFromBeats();
+void handleBluetoothData(uint8_t* data, size_t length);
 
 #endif // BLUETOOTH_MANAGER_H

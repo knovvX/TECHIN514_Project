@@ -9,6 +9,12 @@
 #define COIL_B1 D2
 #define COIL_B2 D3
 
+
+#define DEFAULT_BPM 90.0
+namespace StepperMotor {
+    const float MIN_BPM = 40.0;
+    const float MAX_BPM = 240.0;
+}
 // Initialize metronome stepper motor pins
 void initMetronome();
 
@@ -23,11 +29,24 @@ void updateMetronome(float bpm);
 // position: 0 (center), -90 to +90 (degrees from center)
 void setMetronomePosition(int position);
 
+// Convert degrees to motor steps
+int degreesToSteps(int degrees);
+
+// Move the motor one step in specified direction
+void stepMotor(bool clockwise);
+
 // Get the current position of the metronome in degrees
 int getMetronomePosition();
 
-// Check if metronome should start a new beat
+// Check if metronome is starting a new beat
 // Returns true if a new beat has started (for sound synchronization)
 bool newBeatStarted();
+
+// Enable/disable motor coils
+void enableMotor();
+void disableMotor();
+
+// Set the BPM value with appropriate constraints
+void setBPM(float bpm);
 
 #endif // STEPPER_MOTOR_H
